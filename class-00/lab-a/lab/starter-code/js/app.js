@@ -37,8 +37,8 @@ function displayPics(){
   }
   // console.log(rando);
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  // Because we declare rando in the scope of while and let not as the var (work globally or locally),
-  //And after the while scope rando was not declared.
+  // Because we declare random in the scope of the function and let not as the var (work globally or locally),
+  //And after the function scope rando not declared.
   console.log(viewed);
 
   for (let i = 0; i < 3; i++){
