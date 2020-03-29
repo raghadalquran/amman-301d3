@@ -229,5 +229,5 @@ console.log(joe.scopeArrow());
 // 2. What is "this" when joe.scopeArrow() is invoked?
 //Window{parent: Window, opener: null, top: Window, length: 0, frames: Window,…}
 // 3. Explain why "this" is different when an arrow function is used.
-//In the arrow function this is not bound to anything, and will inherit the value of this from its parent scope.
+//In the arrow function this isn't bound to anything, and will inherit the value of this from its parent scope.
 //Arrow functions do not bind their own this, instead, they inherit the one from the parent scope, which is called "lexical scoping".
